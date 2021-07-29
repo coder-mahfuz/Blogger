@@ -67,6 +67,9 @@ h3{
   font-size: 1.3rem;
 }
 
+span{
+  font-family: var(--Abel);
+}
 
 /* ----x----- Global Classes ------x----*/
 
@@ -194,10 +197,36 @@ main .blog{
   background: url('../assets/Abract01.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 100vh;
-  width: 100%;
-  background-size: 65%;
+  
 }
+
+main .blog-post{
+  padding-top: 20rem;
+}
+
+main .blog-post .blog-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0, 0 ,0 , 0.2);
+}
+
+main .blog-content .blog-title{
+  padding: 2rem 0;
+}
+
+main .blog-content .btn-blog{
+  padding: .7rem 2rem;
+  background: var(--sky);
+  margin: 0.5rem;
+}
+
+main .blog-content span{
+  display: block;
+}
+
 /*Blog Carousel*/
 
 
